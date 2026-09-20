@@ -73,7 +73,8 @@ a {
   background: var(--black);
   color: #fff;
   padding: 90px 0 110px;
-  overflow: hidden
+  overflow: hidden;
+  
 }
 
 .hero-grid {
@@ -608,7 +609,7 @@ a {
 
 .earning-line b {
   color: var(--yellow);
-  font-size: 23px
+  font-size: 20px
 }
 
 .earning-total {
@@ -953,3 +954,43 @@ footer {
   display: block;
   margin: 28px auto 0;
 }
+
+
+.hero {
+  padding: 30px 0 110px;
+}
+
+.plan-highlight {
+  margin: 6px 0;
+}
+
+.profile-name {
+  margin: 25px 0 0;
+}
+
+.hero-caption {
+  margin: 10px auto 18px;
+}
+
+.hero-video {
+  min-height: 0;
+  padding: 16px;
+}
+
+.btn {
+min-width: 280px;
+min-height: 54px;
+padding: 16px 28px;
+justify-content: center;
+text-align: center;
+border-radius: 999px;
+font-size: 15px;
+}
+
+@media (max-width: 480px) {
+.btn {
+width: 100%;
+max-width: 340px;
+}
+}
+
